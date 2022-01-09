@@ -1,0 +1,58 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "C:\Users\plane\OneDrive - Michigan State University\CSE 335\CLionProjects\Project2Starter\MachineTests"
+-- The C compiler identification is MSVC 19.29.30133.0
+-- The CXX compiler identification is MSVC 19.29.30133.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: C:/Users/plane/AppData/Local/Programs/Python/Python39/python.exe (found version "3.9.7") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.20)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe" @C:\Users\plane\AppData\Local\Temp\response-file8301159405484611709 C:\Users\plane\AppData\Local\Temp\compiler-file4835473968942850181 | @response-file8301159405484611709=/TP "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\.." "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2\include" "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 "" "/FIC:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx" /Be /Bd /EP
+	Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30133 for x64
+	Copyright (C) Microsoft Corporation.  All rights reserved.
+	
+	all:
+		@cd C:\Users\plane\OneDrive - Michigan State University\CSE 335\CLionProjects\Project2Starter\MachineTests\cmake-build-debug
+		@set INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt
+		@set LIB=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\lib\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe @<< C:\Users\plane\AppData\Local\Temp\compiler-file4835473968942850181
+	/TP "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\.." "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2\include" "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 "" "/FIC:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx" /Be /Bd /EP<<
+	
+	cl /TP "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\.." "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2\include" "-IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 "" "/FIC:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx" /Be /Bd /EP
+	
+	compiler-file4835473968942850181
+	ENC_CWD=C:\Users\plane\OneDrive - Michigan State University\CSE 335\CLionProjects\Project2Starter\MachineTests\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+	ENC_SRC=C:\Users\plane\AppData\Local\Temp\compiler-file4835473968942850181
+	ENC_PDB=C:\Users\plane\OneDrive - Michigan State University\CSE 335\CLionProjects\Project2Starter\MachineTests\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1 -IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2\include -IC:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2 -DWIN32 -D_WINDOWS -W3 -GR -EHs -EHc -MDd -Zi -Ob0 -Od -RTC1 -FI"C:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx" -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\c1xx.dll -zm0x00007FF6BC66FC60 -il C:\Users\plane\AppData\Local\Temp\_CL_db47d22d -typedil -f C:\Users\plane\AppData\Local\Temp\compiler-file4835473968942850181 -Ze -D_MSC_EXTENSIONS -Zp16 -Focompiler-file4835473968942850181.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -Zc:forScope -Zc:wchar_t -I C:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1 -I C:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2\include -I C:\Users\plane\ONEDRI~1\CSE335~1\CLIONP~1\PROJEC~1\MACHIN~3\CMAKE-~1\_deps\GOOGLE~2\GOOGLE~2 -DWIN32 -D_WINDOWS -W 3 -GR -D_CPPRTTI -EHs -D_CPPUNWIND -EHc -MDd -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -FI C:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/cmake-build-debug/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include -I C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt -I C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt -I C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt'
+	C:/Users/plane/OneDrive - Michigan State University/CSE 335/CLionProjects/Project2Starter/MachineTests/..//pch.h(9): fatal error C1083: Cannot open include file: 'wx/wxprec.h': No such file or directory
+	
+	
