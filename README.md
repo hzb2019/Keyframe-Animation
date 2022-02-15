@@ -1,4 +1,4 @@
-#Animation Program
+# Animation Program
 
 This is the final project of our CSE 335 Object Oriented Software Development course.
 
